@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <title>Scroll Project</title>
+</head>
+<body>
+    <!-- header -->
+    <header id="home">
+        <!-- navBAr -->
+        <nav id="nav">
+            <div class="nav-center">
+                <!-- nav header -->
+                <div class="nav-header">
+                    <img src="https://svgshare.com/i/dvv.svg" alt="logo" class="logo">
+                    <button class="nav-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+                <!-- links -->
+                <div class="links-container">
+                    <ul class="links">
+                        <li>
+                            <a href="#home" class="scroll-link">home</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="scroll-link">about</a>
+                        </li>
+                        <li>
+                            <a href="#services" class="scroll-link">services</a>
+                        </li>
+                        <li>
+                            <a href="#tours" class="scroll-link">tours</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- banner -->
+        <div class="banner">
+            <div class="container">
+                <h1>scroll project</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa laborum necessitatibus facere itaque repudiandae aperiam!</p>
+                <a href="#tours" class="scroll-link btn btn-white">explore tours</a>
+            </div>
+        </div>
+    </header>
+    <!-- about -->
+    <section id="about" class="section">
+        <div class="title">
+            <h2>about <span>Us</span></h2>
+        </div>
+    </section>
+    <!-- services -->
+    <section id="services" class="section">
+        <div class="title">
+            <h2>Our <span>services</span></h2>
+        </div>
+    </section>
+    <!-- tours -->
+    <section id="tours" class="section">
+        <div class="title">
+            <h2>featured <span>tours</span></h2>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="section">
+        <p>copyright &copy; backroads travel tours company <span id="date"> <!-- Using Js to get the year because hard coding the date isnt good for future use --></span>
+        .all rights reserved
+        </p>
+    </footer>
+    <!-- back to the top -->
+    <a href="#home" class="scroll-link top-link">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- JavaScript -->
+    <script src="index.js"></script>
+</body>
+</html>
